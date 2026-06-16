@@ -1,0 +1,27 @@
+apiVersion: apps/v1
+kind: Deployment
+
+metadata:
+  name: users-service
+  namespace: microservices-demo
+
+spec:
+  replicas: 2
+
+  selector:
+    matchLabels:
+      app: users-service
+
+  template:
+    metadata:
+      labels:
+        app: users-service
+
+    spec:
+      containers:
+      - name: users-service
+        image: digi2/users-service:v1
+        imagePullPolicy: Always
+
+        ports:
+        - containerPort: 3001

@@ -1,0 +1,16 @@
+apiVersion: v1
+kind: Service
+
+metadata:
+  name: users-service
+  namespace: microservices-demo
+
+spec:
+  selector:
+    app: users-service
+
+  ports:
+  - port: 3001
+    targetPort: 3001
+
+  type: ClusterIP
