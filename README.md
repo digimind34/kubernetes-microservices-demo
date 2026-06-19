@@ -49,7 +49,7 @@ Namespace: microservices-demo
 
 ## Running Pods
 
-![Pods](docs/screenshots/pods-running.png)
+![Pods](docs/images/pods-running.png)
 
 ## Deployments
 
@@ -62,7 +62,7 @@ Deployments:
 
 ## Services
 
-![Services](docs/screenshots/services.png)
+![Services](docs/images/services.png)
 Services:
 - api-gateway
 - users-service
