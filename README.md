@@ -53,7 +53,7 @@ Namespace: microservices-demo
 
 ## Deployments
 
-![Deployments](docs/screenshots/deployments.png)
+![Deployments](docs/deployments.png)
 Deployments:
 - api-gateway
 - users-service
