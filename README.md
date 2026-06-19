@@ -80,7 +80,7 @@ kubectl port-forward svc/api-gateway 3000:3000 -n microservices-demo
 
 ![Gateway](docs/screenshots/api-gateway-users.png)
 [services](docs/screenshots/services.png)
-[Pods-running]kubernetes-microservices-demo/services/docs/screenshots/pods-running.png
+[Pods-running]kubernetes-microservices-demo/docs/screenshots/pods-running.png
 [Deployment](docs/screenshots/successful-deployment.png)
 
 Test:
