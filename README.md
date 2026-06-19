@@ -12,6 +12,7 @@ A DevOps portfolio project demonstrating how to containerize and deploy a micros
 - Add CI/CD using GitHub Actions
 
 ## Architecture
+![Architecture](docs/images/architecture.png)
 
 Frontend → API Gateway → Users Service  
 Frontend → API Gateway → Orders Service
@@ -46,11 +47,22 @@ digi2/orders-service:v1
 Kubernetes Resources
 Namespace: microservices-demo
 
+## Running Pods
+
+![Pods](docs/screenshots/pods-running.png)
+
+## Deployments
+
+![Deployments](docs/screenshots/deployments.png)
 Deployments:
 - api-gateway
 - users-service
 - orders-service
 
+
+## Services
+
+![Services](docs/screenshots/services.png)
 Services:
 - api-gateway
 - users-service
@@ -63,6 +75,13 @@ API Endpoints
 Through port-forward:
 
 kubectl port-forward svc/api-gateway 3000:3000 -n microservices-demo
+
+## API Gateway Communication
+
+![Gateway](docs/screenshots/api-gateway-users.png)
+[services](docs/screenshots/services.png)
+[Pods-running](docs/screenshots/pods-running.png)
+[Deployment](docs/screenshots/successful-deployment.png)
 
 Test:
 
