@@ -111,6 +111,7 @@ curl http://microservices-demo.local/orders
 ---
 
 ## Deploy to Kubernetes
+
 ---
 kubectl apply -f k8s/namespace.yaml
 kubectl apply -f k8s/users-service/
