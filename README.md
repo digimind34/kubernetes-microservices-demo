@@ -46,14 +46,16 @@ digi2/users-service:v1
 digi2/orders-service:v1
 Kubernetes Resources
 Namespace: microservices-demo
-
+---
 ## Running Pods
 
 ![Pods](docs/images/pods-running.png)
+---
 
+---
 ## Deployments
-
 ![Deployments](docs/images/deployments.png)
+---
 Deployments:
 - api-gateway
 - users-service
