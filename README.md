@@ -122,8 +122,11 @@ kubectl apply -f k8s/api-gateway/
 ## Verify
 ---
 kubectl get deployments -n microservices-demo
+
 kubectl get pods -n microservices-demo
+
 kubectl get svc -n microservices-demo
+
 kubectl get ingress -n microservices-demo
 ---
 
