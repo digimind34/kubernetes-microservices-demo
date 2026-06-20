@@ -48,7 +48,7 @@ Kubernetes Resources
 Namespace: microservices-demo
 ---
 ## Running Pods
-
+---
 ![Pods](docs/images/pods-running.png)
 ---
 
@@ -92,7 +92,7 @@ kubectl port-forward svc/api-gateway 3000:3000 -n microservices-demo
 ---
 [Deployment](docs/screenshots/successful-deployment.png)
 
-##Test:
+Test:
 ---
 !curl http://localhost:3000
 
@@ -102,26 +102,33 @@ curl http://localhost:3000/orders
 
 curl http://localhost:3000/health
 ---
-Through Ingress:
+## Through Ingress:
 
+---
 curl http://microservices-demo.local
 curl http://microservices-demo.local/users
 curl http://microservices-demo.local/orders
-Deploy to Kubernetes
+---
+
+## Deploy to Kubernetes
+---
 kubectl apply -f k8s/namespace.yaml
 kubectl apply -f k8s/users-service/
 kubectl apply -f k8s/orders-service/
 kubectl apply -f k8s/api-gateway/
+---
 
-Verify:
-
+## Verify
+---
 kubectl get deployments -n microservices-demo
 kubectl get pods -n microservices-demo
 kubectl get svc -n microservices-demo
 kubectl get ingress -n microservices-demo
+---
+
 Local Host Mapping
 
-For Windows, add this to:
+## For Windows, add this to:
 
 C:\Windows\System32\drivers\etc\hosts
 172.23.0.5 microservices-demo.local
