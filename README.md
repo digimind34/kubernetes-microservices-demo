@@ -77,12 +77,19 @@ API Endpoints
 Through port-forward:
 
 kubectl port-forward svc/api-gateway 3000:3000 -n microservices-demo
-
+----
 ## API Gateway Communication
-
 ![Gateway](docs/screenshots/api-gateway-users.png)
+---
+----
 [services](docs/screenshots/services.png)
+---
+
+---
 [Pods-running](docs/screenshots/pods-running.png)
+---
+
+---
 [Deployment](docs/screenshots/successful-deployment.png)
 
 Test:
