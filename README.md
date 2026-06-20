@@ -102,8 +102,9 @@ curl http://localhost:3000/orders
 
 curl http://localhost:3000/health
 ---
-## Through Ingress:
 
+
+## Through Ingress:
 ---
 curl http://microservices-demo.local
 curl http://microservices-demo.local/users
