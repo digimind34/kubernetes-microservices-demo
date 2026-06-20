@@ -94,9 +94,12 @@ kubectl port-forward svc/api-gateway 3000:3000 -n microservices-demo
 
 Test:
 
-curl http://localhost:3000
+!curl http://localhost:3000
+
 curl http://localhost:3000/users
+
 curl http://localhost:3000/orders
+
 curl http://localhost:3000/health
 
 Through Ingress:
