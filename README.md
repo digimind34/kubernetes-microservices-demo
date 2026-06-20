@@ -17,7 +17,7 @@ A DevOps portfolio project demonstrating how to containerize and deploy a micros
 Frontend → API Gateway → Users Service  
 Frontend → API Gateway → Orders Service
 
-```text
+text
 Client
   |
   v
