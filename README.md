@@ -120,6 +120,7 @@ kubectl apply -f k8s/api-gateway/
 ---
 
 ## Verify
+
 ---
 kubectl get deployments -n microservices-demo
 
